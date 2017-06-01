@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import component from '../src/{{name}}.vue';
+import component from '../src/';
 
 Vue.component('{{ name }}', component);
 
@@ -8,7 +8,7 @@ var vm = new Vue({
     data: function(){
         return {
             title: '{{ name }}',
-            value: Date.now()
+            value: Date.now().toString()
         }
     }
 })

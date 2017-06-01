@@ -1,7 +1,6 @@
 <template>
-    <div class="{{ name }}" @click="changed">
-        <h1>{{ name }} is vue component!</h1>
-        <p>value: \{{ value }}</p>
+    <div class="{{ name }}">
+        <p>value: \{{ value }}<button @click="change">change</button></p>
     </div>
 </template>
 <style{{#sass}} lang="scss"{{/sass}} scoped>
@@ -29,8 +28,8 @@ export default {
         console.log('destroy {{ name }}');
     },
     methods:{
-        changed(){
-            this.$emit('input', Date.now());
+        change(){
+            this.$emit('input', Date.now().toString());
         }
     }
 }
