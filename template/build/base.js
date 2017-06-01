@@ -5,8 +5,8 @@ module.exports = {
     output: {
         library: '{{ name }}',
         libraryTarget: "umd",
-        path: path.resolve(__dirname, '../{{ dist }}'),
-        publicPath: '/{{ dist }}/',
+        path: path.resolve(__dirname, '../{{ output }}'),
+        publicPath: '/{{ output }}/',
         filename: '{{ name }}.js'
     },
     module: {
