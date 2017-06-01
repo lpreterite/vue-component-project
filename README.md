@@ -1,4 +1,4 @@
-# web-product
+# vue-component-project
 A simple vue component project setup for quick prototyping.
 
 ## Features
