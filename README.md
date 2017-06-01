@@ -9,8 +9,8 @@ A simple vue component project setup for quick prototyping.
 这是基于 [vue-cli](https://github.com/vuejs/vue-cli) 的项目模板
 ```
 $ npm install -g vue-cli
-$ vue init lpreterite/web-product my-project
-$ cd my-project
+$ vue init lpreterite/vue-component-project my-vue-component
+$ cd my-vue-component
 $ npm install
 $ npm run dev
 $ npm run hot
