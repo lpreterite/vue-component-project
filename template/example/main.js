@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import {{ name }} from '../src/{{name}}.vue';
+import component from '../src/{{name}}.vue';
 
-Vue.component('{{ name }}', {{ name }});
+Vue.component('{{ name }}', component);
 
 var vm = new Vue({
     el: '#app',

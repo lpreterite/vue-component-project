@@ -30,13 +30,13 @@
     "vue-loader": "^11.3.4",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
-    "extract-text-webpack-plugin": "^2.1.0",
     {{#json-server}}
     "json-server": "^0.9.6",
     {{/json-server}}
     {{#sass}}
     "node-sass": "^4.5.0",
-    "sass-loader": "^5.0.1"
+    "sass-loader": "^5.0.1",
     {{/sass}}
+    "extract-text-webpack-plugin": "^2.1.0"
   }
 }

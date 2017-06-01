@@ -1,7 +1,7 @@
 <template>
     <div class="{{ name }}" @click="changed">
         <h1>{{ name }} is vue component!</h1>
-        <p>value: {{ value }}</p>
+        <p>value: \{{ value }}</p>
     </div>
 </template>
 <style{{#sass}} lang="scss"{{/sass}} scoped>
